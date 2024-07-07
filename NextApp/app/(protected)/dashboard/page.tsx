@@ -1,8 +1,14 @@
-'use client';
-import { signOut } from '@/auth';
-import { useSession } from 'next-auth/react';
+// 'use client';
+// import { useSession } from 'next-auth/react';
 
-export default async function dashboard() {
-  const session = useSession();
-  return <div>{JSON.stringify(session)}</div>;
+import Card from '@/components/custom/Card';
+
+export default function dashboard() {
+  // const session = useSession();
+  return (
+    <div className={'flex gap-5'}>
+      <Card>'hidjkfhgkjdchbklfdghkg '</Card>
+      <Card>'hidjgkldfh'</Card>
+    </div>
+  );
 }

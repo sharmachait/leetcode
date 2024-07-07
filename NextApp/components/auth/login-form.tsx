@@ -52,11 +52,8 @@ export function LoginForm() {
         setError(response.error);
       } else {
         router.replace('/dashboard');
+        // console.log(values);
       }
-
-      // if (response && response.success) {
-      //   setSuccess(response.success);
-      // }
     });
   };
 

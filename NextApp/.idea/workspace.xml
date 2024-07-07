@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58216145-571c-40a9-b9c7-b5d6538e8550" name="Changes" comment="" />
+    <list default="true" id="58216145-571c-40a9-b9c7-b5d6538e8550" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/actions/logout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(protected)/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(protected)/contests/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(protected)/problems/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/auth/NavBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/custom/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(protected)/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(protected)/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(protected)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(protected)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth/login-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/login-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,34 +59,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Node.js.Debug.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/chait/OneDrive/Desktop/cohort code alongs/auth/app/auth/newPassword&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\chait\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\chait\\OneDrive\\Desktop\\cohort code alongs\\auth\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Node.js.Debug.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/chait/OneDrive/Desktop/cohort code alongs/leetcode/NextApp/app/(protected)/problems",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\chait\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
+    "ts.external.directory.path": "C:\\Users\\chait\\OneDrive\\Desktop\\cohort code alongs\\leetcode\\NextApp\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\app\(protected)\problems" />
+      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\app\(protected)\about" />
+      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\app\(protected)\contests" />
+      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\actions" />
       <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\auth\app\auth\newPassword" />
-      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\auth\components\auth" />
-      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\auth\app\(protected)\dashboard" />
-      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\auth\app\auth" />
-      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\auth\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\public\static\images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -129,6 +147,9 @@
       <workItem from="1720077688887" duration="2548000" />
       <workItem from="1720177595269" duration="1801000" />
       <workItem from="1720182916299" duration="145000" />
+      <workItem from="1720264386770" duration="179000" />
+      <workItem from="1720272460195" duration="9510000" />
+      <workItem from="1720349453087" duration="7483000" />
     </task>
     <servers />
   </component>
