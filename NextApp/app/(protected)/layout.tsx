@@ -11,10 +11,17 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  let pages: { name: string; link: string }[] = [
+    { name: 'dashboard', link: '/dashboard' },
+    { name: 'problems', link: '/problems' },
+    { name: 'contests', link: '/contest' },
+    { name: 'leaderboard', link: '/leaderboard' },
+    { name: 'about', link: '/about' },
+  ];
   return (
     // <SessionProvider>
     <div>
-      <NavBar></NavBar>
+      <NavBar pages={pages}></NavBar>
       <div className={'grid place-items-center'}>
         <div className={'w-4/5 max-w-screen-2xl min-h-56 p-5 '}>{children}</div>
       </div>

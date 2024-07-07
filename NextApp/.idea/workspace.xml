@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58216145-571c-40a9-b9c7-b5d6538e8550" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/logout.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(protected)/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(protected)/contests/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(protected)/problems/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/NavBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/custom/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/images/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(protected)/leaderboard/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/custom/LeaderBoardList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/custom/ProblemList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/custom/SubmissionActivity.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/custom/SubmissionActivityList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/custom/TopFive.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(protected)/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(protected)/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(protected)/contests/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(protected)/contest/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(protected)/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(protected)/dashboard/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(protected)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(protected)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/auth/login-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/login-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(protected)/problems/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(protected)/problems/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/custom/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/custom/Card.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/chait/OneDrive/Desktop/cohort code alongs/leetcode/NextApp/app/(protected)/problems",
+    "last_opened_file_path": "C:/Users/chait/OneDrive/Desktop/cohort code alongs/leetcode/NextApp/app/(protected)/leaderboard",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,11 +82,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\app\(protected)\leaderboard" />
       <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\app\(protected)\problems" />
       <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\app\(protected)\about" />
       <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\app\(protected)\contests" />
       <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\actions" />
-      <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\auth\app\auth\newPassword" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chait\OneDrive\Desktop\cohort code alongs\leetcode\NextApp\public\static\images" />
@@ -149,7 +149,7 @@
       <workItem from="1720182916299" duration="145000" />
       <workItem from="1720264386770" duration="179000" />
       <workItem from="1720272460195" duration="9510000" />
-      <workItem from="1720349453087" duration="7483000" />
+      <workItem from="1720349453087" duration="11663000" />
     </task>
     <servers />
   </component>
