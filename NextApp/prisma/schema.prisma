@@ -21,8 +21,20 @@ model User {
   password      String?//optional because we may also use OAuth providers
   role          UserRole  @default(USER)
   accounts      Account[]
+  // contestSubmissions ContestSubmission[]
+  submissions        Submission[]
+  // contestPoints      ContestPoints[]
 
   @@map("users")
+}
+
+model Submission{
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId],references: [id], onDelete: Cascade)
+  language String
+  status String
+  submissionTime String
 }
 
 model Account {
@@ -61,4 +73,29 @@ model PasswordResetToken {
   expires DateTime
 
   @@unique([email,token])
+}
+
+model Problem{
+  id String @id @default(cuid())
+  title String
+  description String
+  defaultCodes DefaultCode[]
+  testCases TestCase[]
+}
+
+model DefaultCode {
+  id String @id @default(cuid())
+  language String
+  boilerplate String
+  problemId String
+  problem Problem @relation(fields: [problemId],references: [id])
+}
+
+model TestCase{
+  id String @id @default(cuid())
+  input String
+  output String
+
+  problemId String
+  problem Problem @relation(fields: [problemId],references: [id])
 }
