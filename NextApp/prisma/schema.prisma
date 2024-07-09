@@ -34,7 +34,9 @@ model Submission{
   user User @relation(fields: [userId],references: [id], onDelete: Cascade)
   language String
   status String
-  submissionTime String
+  submissionTime DateTime
+  workerPickTime DateTime
+  workerTryCount Int
 }
 
 model Account {
@@ -81,6 +83,8 @@ model Problem{
   description String
   defaultCodes DefaultCode[]
   testCases TestCase[]
+  difficulty String
+  tags String[]
 }
 
 model DefaultCode {
